@@ -1,6 +1,19 @@
+# Ignore virtual environments
 venv/
+.env/
+
+# Ignore node_modules
 node_modules/
+
+# Ignore Python cache
+__pycache__/
+
+# Ignore large build and log files
 *.dll
 *.pyd
+*.so
 *.pack
 *.log
+
+# Ignore tensorflow internal binary
+*_pywrap_tensorflow_internal.pyd
